@@ -113,12 +113,14 @@
 .staff__cards {
   max-width: 760px;
   margin: 68px auto;
+  margin-bottom: auto;
   row-gap: 40px;
   column-gap: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-left: 0;
+  list-style-type: none;
 }
 .card {
   background-color: #fff;
@@ -128,7 +130,7 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 .card__content {
   width: 100%;
