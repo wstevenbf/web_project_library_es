@@ -113,7 +113,7 @@
 .staff__cards {
   max-width: 760px;
   margin: 68px auto;
-  margin-bottom: auto;
+  margin-bottom: 68px;
   row-gap: 40px;
   column-gap: 40px;
   display: flex;
