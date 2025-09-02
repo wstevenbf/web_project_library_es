@@ -390,9 +390,8 @@
 .footer__column-link {
   display: none;
   color: white;
-  align-items: flex-start;
   text-decoration: none;
-  column-gap: 80px;
+  column-gap: 0px;
 }
 
 .footer__social-icon {
