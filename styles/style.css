@@ -307,7 +307,7 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 0;
+  /* padding: 0; */
   margin: 100px 0 0;
   column-gap: 40px;
   display: flex;
@@ -317,7 +317,7 @@
 }
 
 .step {
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -339,7 +339,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
