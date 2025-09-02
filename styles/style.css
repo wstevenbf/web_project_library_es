@@ -388,11 +388,11 @@
 }
 
 .footer__column-link {
-  display: inline;
+  display: none;
   color: white;
   align-items: flex-start;
   text-decoration: none;
-  display`, `align-items`, `column-gap
+  column-gap: 80px;
 }
 
 .footer__social-icon {
