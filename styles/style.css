@@ -388,8 +388,9 @@
 }
 
 .footer__column-link {
-  display: none;
+  display: inline;
   color: white;
+  /* align-items: flex-end; */
   text-decoration: none;
   column-gap: 0px;
 }
