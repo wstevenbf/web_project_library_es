@@ -159,7 +159,7 @@
   color: #838383;
   margin-top: auto;
 }
-
+/* Aqui Inicia Parte 2 Sprint 3 */
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -288,4 +288,112 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  column-gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.step {
+  width: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.footer__columns {
+  padding: 60px 80px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.footer__column_content_social {
+  margin-right: 0;
+}
+
+.footer__logo {
+  width: 50px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: flex;
+  color: white;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-left: 80px;
+  padding-bottom: 60px;
+  color: white;
 }
