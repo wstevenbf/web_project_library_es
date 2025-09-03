@@ -379,7 +379,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: white;
+  color: #ffffff;
 }
 
 .footer__list-item {
@@ -387,15 +387,16 @@
 }
 
 .footer__column-link {
-  display: inline;
+  display: flex;
   color: white;
-  /* align-items: flex-end; */
   text-decoration: none;
-  column-gap: 0px;
+  column-gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .footer__social-icon {
-  margin-right: 10px;
+  /* margin-right: 10px; */
   width: 16px;
   height: 16px;
 }
