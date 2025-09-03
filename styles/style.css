@@ -231,7 +231,6 @@
 }
 
 .events__image {
-  /* max-width: 610px; */
   max-width: 100%;
 }
 
@@ -347,7 +346,6 @@
 }
 
 .footer__columns {
-  /* padding: 60px 80px 100px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -392,11 +390,9 @@
   text-decoration: none;
   column-gap: 10px;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .footer__social-icon {
-  /* margin-right: 10px; */
   width: 16px;
   height: 16px;
 }
