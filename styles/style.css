@@ -307,14 +307,13 @@
 
 .membership__steps {
   list-style-type: none;
-  padding-top: 80px;
+  /* margin-top: 200px; */
   margin: 100px 0 0;
   column-gap: 40px;
-  margin: 0px;
+  /* margin: 0px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-left: 0;
 }
 
 .step {
