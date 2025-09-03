@@ -307,9 +307,10 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 0;
-  margin: 100px 0 0;
-  column-gap: 40px;
+  padding-top: 80px;
+  /* margin: 100px 0 0; */
+  /* column-gap: 40px; */
+  margin: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -318,6 +319,7 @@
 
 .step {
   flex-basis: 220px;
+  margin-left: 40px;
 }
 
 .step__title {
